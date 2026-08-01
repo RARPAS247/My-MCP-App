@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "status": "building",
+  "updatedAt": 1785602840132,
+  "sessionId": "cmps_1785602840121_5lw1g8i",
+  "projectPath": "C:\\Users\\VICTUS\\my-web-app\\My-App",
+  "projectName": "My-App",
+  "snapshot": {
+    "messages": [],
+    "todos": [],
+    "planHistory": [],
+    "models": {
+      "planner": {
+        "model": "~anthropic/claude-haiku-latest",
+        "temperature": 0,
+        "parallelToolCalls": true
+      },
+      "editor": {
+        "model": "~anthropic/claude-haiku-latest",
+        "temperature": 0,
+        "parallelToolCalls": true
+      },
+      "fixer": {
+        "model": "~anthropic/claude-haiku-latest",
+        "temperature": 0,
+        "parallelToolCalls": true
+      }
+    },
+    "approvalMode": "ask",
+    "onboardingHandled": false
+  },
+  "resume": {
+    "agentWasRunning": false
+  }
+}
