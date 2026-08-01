@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "nitrostack-cli build && cd src/widgets && npm run build",
+    "build": "nitrostack-cli build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
