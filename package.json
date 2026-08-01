@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "tsc -p tsconfig.server.json",
     "build": "nitrostack-cli build",
+    "start": "nitrostack-cli start",
     "lint": "oxlint",
     "preview": "vite preview"
   },
